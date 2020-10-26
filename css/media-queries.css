@@ -83,7 +83,6 @@ div i:hover {
         display: none;
     }
     h1 {
-        display: flex;
         margin-right: auto;
         margin-left: 0;
         margin-bottom: 0;
@@ -92,6 +91,7 @@ div i:hover {
     }
     .header-img{
         display: flex;
+        flex-basis: 100%;
     }
     img {
         width: 100%;
