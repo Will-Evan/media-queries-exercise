@@ -73,7 +73,7 @@ div i:hover {
 }
 
 /* Medium devices (desktops, 992px and up) */
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 992px) {
     body {
         display: flex;
         flex-direction: row;
