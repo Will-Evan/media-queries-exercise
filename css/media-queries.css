@@ -1,0 +1,19 @@
+/* Mobile First */
+body {
+
+}
+
+i {
+    color: black;
+}
+
+div i:hover {
+    color: orangered;
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    body {
+
+    }
+}
