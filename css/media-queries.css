@@ -1,15 +1,15 @@
 /* Mobile First */
 body {
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    max-width: 350px;
     justify-content: center;
     font-family: Arial;
 }
 
 .alert-info {
-    width: 100%;
-    margin: auto;
+    width: calc(100% - 6px);
+    margin: .5em auto;
     background-color: #cbffff;
     border: 3px solid lightgray;
     /*flex-basis: 100%;*/
@@ -18,14 +18,53 @@ body {
 .alert-info > a {
     text-decoration: none;
     color: black;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+ div.alert-info {
+     margin: .5em auto;
+ }
+
+ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: auto;
+    padding: 0;
 }
 
-div {
+li {
+    width: 100%;
+    background-color: lightgray;
+    margin: .5em auto;
+    padding: 1em 0;
+    text-align: center;
+}
 
+img {
+    width: 100%;
+    margin: .5em auto;
+}
+
+.sub-section {
+    font-style: italic;
+}
+
+footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 i {
     color: black;
+}
+
+h1 {
+    margin: 0 auto .5em auto;
+    text-align: center;
 }
 
 div i:hover {
