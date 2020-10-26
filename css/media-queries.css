@@ -88,21 +88,24 @@ div i:hover {
         margin-left: 0;
         margin-bottom: 0;
         margin-top: .2em;
+        /*flex-basis: 50%;*/
     }
     .header-img{
         display: flex;
     }
     img {
-        position: relative;
         width: 100%;
+        /*flex-basis: 100%;*/
     }
     ul {
         display: flex;
         flex-direction: row;
+        /*flex-basis: 50%;*/
     }
     li {
         background: none;
         margin: .5em;
+        /*flex-basis: 25%;*/
     }
     .main {
         margin: 0 auto;
@@ -113,5 +116,24 @@ div i:hover {
         flex-basis: 33%;
     }
 
+    footer {
+        width: 100%;
+    }
+
+    footer > p {
+        margin-right: auto;
+        flex-basis: 50%;
+    }
+
+    #social-media-links {
+        margin-left: auto;
+        display: flex;
+        justify-content: flex-end;
+        flex-basis: 50%;
+    }
+
+    #social-media-links > a {
+        margin: .5em;
+    }
 
 }
